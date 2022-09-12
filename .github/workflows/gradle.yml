@@ -34,6 +34,6 @@ jobs:
         if: always()
         with:
           name: gradle Tests
-          path: GitHubActions/Results/Output.xml
+          path: Output.xml
           reporter: java-junit
           fail-on-error: true
